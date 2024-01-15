@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* banner releted style */
+.banner{
+    height: 350px;
+    width: 1100px;
+    margin: 0 auto;
+    background-size: 100%;
+    background-image: url('./Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-title{
+    color: #FFF;
+font-size: 3.2rem;
+font-weight: 800;
+}
+
+.banner-desc{
+    color: #FFF;
+    padding:10px 150px;
+}
+
+.input-items{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-items input, select{
+    width: 120px;
+    height: 35px;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 7px;
+}
+
+.btn-primary{
+    width: 120px;
+    height: 35px;
+    color: #FFF;
+    background-color: #FF5400;
+    border: 0;
+    border-radius: 7px;
+}
+
+
+
+
