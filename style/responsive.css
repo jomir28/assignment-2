@@ -1,0 +1,176 @@
+@media only screen and (max-width: 600px) {
+
+    /* nav releted style */
+    .nav-items{
+        display: none;
+    }
+    .bar {
+        display: block;
+    }
+    .bar i{
+        font-size: 35px;
+    }
+    /* banner releted style */
+    .banner {
+        width: 100%;
+        padding: 50px 0;
+    }
+    .banner-title {
+        color: #FFF;
+        font-size: 3rem;
+    }
+    
+    .banner-desc {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .input-items {
+        padding-top: 35px;
+        display: block;
+    }
+    
+    .input-items select {
+        display: block;
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+  
+    }
+    
+    .btn-primary {
+        width: 120px;
+        height: 35px;
+        color: #FFF;
+        background-color: #FF5400;
+        border: 0;
+        border-radius: 7px;
+    }
+    
+    /* main section */
+    
+    /* popular releted style */
+    .popular {
+        height: 100%;
+        display: block;
+    }
+    
+    .popular-container {
+        width: 100%;
+    }
+    
+    .popular-img-container {
+        width: 100%;
+        padding-top: 60px;
+    }    
+    ul>li {
+     
+        margin-left: 20px;
+    }
+    
+    /* destination style */
+    
+    .destination-desc {
+        padding: 15px 10px;
+    }
+    
+    /* destination img container style */
+    .destination-img-container {
+        display: block;
+    }
+    
+    .destination-img-container img {
+       width: 100wv;
+       margin-top: 20px;
+       object-fit: cover;
+    }
+
+
+   /* Why Section Style */
+    .why-desc{
+        width: 100%;
+    }
+    .why-items-3{
+        height: 250px;
+        width: 100%;
+    }
+
+.why-desc{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.why-contant{
+    text-align: center;
+}
+
+.why-container{
+    display: block;
+}
+
+.why-items, .why-items-2{
+    margin-top: 20px;
+}
+
+.why-items-3{
+    height: 250px;
+    width: 100%;
+}
+
+.why-items-3{
+    width: 94%;
+    margin: 20px 0px;
+}
+
+
+/* Perfect and Video Section */
+
+.perfect {
+    height: 100%;
+    display: block;
+}
+
+.perfect-contant {
+    width: 100%;
+}
+
+.video-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* newsletter section style */
+.newsletter {
+    display: block;
+}
+
+.newsletter-contant {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.newsletter-img-container {
+    width: 100%;
+}
+
+
+
+/* footer section style */
+.footer{
+    height: 100%;
+    padding-top:100px 0 ;
+}
+
+.travel-contant{
+    display: flex;
+}
+
+
+.travel-desc{
+    text-align: center;
+    padding: 25px 30px;
+}
+
+}

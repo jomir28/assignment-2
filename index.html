@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assignment 2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <script src="https://kit.fontawesome.com/6e172cc2b3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+   <div class="container">
     <header class="header">
         <nav>
             <div class="nav-contant">
-                <img src="Images/Group 40071 (2).png" >
+            <img src="Images/Group 40071 (2).png" >
             <h3 class="travel-title">Our <span class="travel-color">Travel</span></h3>
             </div>
 
@@ -24,21 +26,36 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Conttact</a></li>
             </div>
+
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
         </nav>
          
+        <!-- Banner -->
         <div class="banner">
-            <h3 class="banner-title">Explore Your Travel</h3>
-            <p class="banner-desc">Travelling is an amazing way to learn a lot of things in life. A lot of people around
-                the world travel every year to many places. </p>
-            <div class="input-items">
-                <input type="text" placeholder="Where go">
-                <select class="" name="" id="">
-                    <option value="When">When</option>
-                </select>
-                <select name="" id="">
-                    <option value="Select Type">Select Type</option>
-                </select>
-                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+           <div class="wrap">
+            <h3 class="banner-title">Explore Your Travel<h3>
+                <p class="banner-desc">Travelling is an amazing way to learn a lot of things in life. A lot of people around the world travel every year to many places. </p>
+
+                <div class="input-items">
+                    
+                    <select name="" id="">
+                        <option value="Where you go">Where you go</option>
+                    </select>
+    
+                    <select class="" name="" id="">
+                        <option value="When">When</option>
+                    </select>
+    
+                    <select name="" id="">
+                        <option value="Select Type">Select Type</option>
+                    </select>
+    
+                    <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+    
+           </div>
             </div>
 
         </div>
@@ -116,6 +133,7 @@
     </div>
 
     <div class="why-container">
+
        <div class="why-items">
         <img src="icon/hotel 1.svg" alt="">
         <h3 class="w-i-title">Handpicked Hotels</h3>
@@ -173,6 +191,7 @@
 
         </section>
     </main>
+   </div>
 
     <footer class="footer">
 <div class="travel-contant">
