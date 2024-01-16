@@ -123,41 +123,46 @@ ul>li {
 }
 
 /* destination style */
-.destination-contant{
+.destination-contant {
     margin-top: 70px;
     text-align: center;
 }
-.destination-title{
+
+.destination-title {
     color: #131318;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.destination-desc{
+.destination-desc {
     padding: 15px 120px;
 }
+
 /* destination img container style */
-.destination-img-container{
+.destination-img-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
-.destination-img-container img{
+.destination-img-container img {
     width: 100%;
     height: 200px;
 }
 
-.img-items-1, .img-items-2, .img-items-4{
+.img-items-1,
+.img-items-2,
+.img-items-4 {
     grid-column: span 2;
 }
 
-.img-items-7{
+.img-items-7 {
     grid-column: span 3;
 }
+
 /* perfect and video section */
 
-.perfect{
+.perfect {
     margin-top: 60px;
     height: 300px;
     display: flex;
@@ -165,22 +170,62 @@ font-weight: 800;
     gap: 30px;
 }
 
-.perfect-contant{
-    width: 50%;
-}
-.video-container{
+.perfect-contant {
     width: 50%;
 }
 
-.video-container video{
+.video-container {
+    width: 50%;
+}
+
+.video-container video {
     width: 100%;
     border: 0;
     border-radius: 15px;
 }
 
-.perfect-title{
-font-size: 2.2rem;
-font-weight: 800;
-margin-bottom: 15px;
+.perfect-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
 }
 
+
+/* newsletter section style */
+.newsletter {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.newsletter-contant {
+    background-color: #FFF;
+    width: 40%;
+}
+
+.newsletter-img-container {
+    width: 60%;
+}
+
+.newsletter-img-container img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border: 0;
+    border-radius: 12px;
+
+}
+
+.newsletter-contant input {
+    width: 350px;
+    height: 35px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    border-radius: 7px;
+    display: block;
+    margin: 15px 0;
+}
+
+.btn-div button{
+    width: 350px;
+}
