@@ -132,6 +132,10 @@ ul>li {
 font-size: 40px;
 font-weight: 800;
 }
+
+.destination-desc{
+    padding: 15px 120px;
+}
 /* destination img container style */
 .destination-img-container{
     display: grid;
@@ -150,5 +154,33 @@ font-weight: 800;
 
 .img-items-7{
     grid-column: span 3;
+}
+/* perfect and video section */
+
+.perfect{
+    margin-top: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.perfect-contant{
+    width: 50%;
+}
+.video-container{
+    width: 50%;
+}
+
+.video-container video{
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+}
+
+.perfect-title{
+font-size: 2.2rem;
+font-weight: 800;
+margin-bottom: 15px;
 }
 
