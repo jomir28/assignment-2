@@ -156,8 +156,14 @@ ul>li {
     grid-column: span 2;
 }
 
+.img-items-6 {
+    width: calc(100% + 90px);
+}
+
 .img-items-7 {
     grid-column: span 3;
+    width: calc(100% - 90px);
+    padding-left: 90px;
 }
 
 /* perfect and video section */
@@ -226,6 +232,65 @@ ul>li {
     margin: 15px 0;
 }
 
-.btn-div button{
+.btn-div button {
     width: 350px;
+}
+
+.save-badge {
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    border-radius: 12px;
+    background: #FF5400;
+    position: relative;
+    bottom: 138px;
+    left: 390px;
+    transform: rotate(-30.628deg);
+}
+
+.save-badge h3 {
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.save-badge P {
+    color: #FFF;
+    padding-top: 13px;
+}
+
+/* footer section style */
+.footer{
+    height: 300px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top:100px ;
+}
+
+.travel-contant{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.travel-title{
+    color: var(--Dark-01, #131318);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.travel-color{
+    color: #FF5400;
+}
+
+.travel-desc{
+    text-align: center;
+    padding: 25px 300px;
 }
